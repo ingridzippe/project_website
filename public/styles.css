@@ -27,12 +27,12 @@ body {
 }
 .drip-case {
 	float: left;
-	margin-top: 24px;
+	margin-top: 15px;
 	margin-left: 120px;
 	height: 80px;
-	width: 140px;
-	background: url("photos/drip_logo.png") no-repeat;
-	background-size: 80%;
+	width: 170px;
+	background: url("photos/acr.png") no-repeat;
+	background-size: 100%;
 	background-position: 90% 10%;
 	/*border: 1px solid #000;*/
 }
@@ -53,46 +53,67 @@ body {
 	margin: 20px;
 }
 .nav:hover {
-	color: #D4CCC5;
+	color: #CB1E2F;
+}
+.nav:active {
+	color: #CB1E2F;
 }
 .investor {
 	text-decoration: none;
 	color: #000;
 }
 .investor:hover {
-	color: #D4CCC5;
+	/* color: #D4CCC5; */
+	color: #B3323F;
 }
 .testflight {
 	text-decoration: none;
 	color: #000;
 }
 .testflight:hover {
-	color: #D4CCC5;
+	color: #B3323F;
 }
 .demo {
 	text-decoration: none;
 	color: #000;
 }
 .demo:hover {
-	color: #D4CCC5;
+	color: #B3323F;
+}
+.demo:active {
+	color: #B3323F;
 }
 .download {
 	text-decoration: none;
 	color: #000;
   margin-left: 77px;
 }
+.blurb {
+  margin-top: 140px;
+  margin-left: 40px;
+  line-height: 1.4;
+}
 .download:hover {
-	color: #D4CCC5;
+	color: #B3323F;
+}
+.download:active {
+	color: #B3323F;
 }
 .words {
 	padding-top: 100px;
 	height: 780px;
-	width: 1100px;
+	width: 1200px;
 	margin: 0 auto;
 /*  position: relative;
   top: 37%;
   transform: translateY(-50%);*/
 /*    border: 1px solid #000;*/
+}
+.content {
+	padding-top: 100px;
+	height: 780px;
+	width: 900px;
+	margin: 0 auto;
 }
 #jimin {
 	margin-top: 0px;
@@ -105,9 +126,9 @@ body {
 	position: relative;
 	width: 49%;
 	height: 780px;
-	background: url("photos/phone_photo.png") no-repeat;
+	background: url("photos/larger_headtilt.jpg") no-repeat;
 	background-position: 45% 50%;
-	background-size: 65%;
+	background-size: 90%;
 /*	border: 1px solid #000;*/
 }
 .mongo {
@@ -197,7 +218,7 @@ h2 {
 }
 h4 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 50px;
+	font-size: 43px;
 	font-weight: 300;
 	margin-top: 100px;
 	text-align: left;
@@ -229,20 +250,40 @@ h5 {
     font-size: 60px;
 }
 .coral {
-	background-color: #ffe6ff;
+		background-color: #ffe6ff;
 }
 .idea {
     font-size: 60px;
+}
+.goal {
+		font-size: 40px;
+		margin-bottom: 160px;
+}
+.blob {
+		font-size: 35px;
+		margin-bottom: 0px;
+		margin-top: 40px;
+}
+.center {
+		text-align: center;
+		margin-top: 40px;
+}
+#start {
+		margin-top: 100px;
 }
 li {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 35px;
 	font-weight: 300;
 	margin-top: 10px;
+	line-height: 1.3;
 }
 ul {
 	margin-top: 70px;
     margin-left: 100px;
+}
+ol {
+	margin-left: 110px;
 }
 #left-i {
 	left: 0;

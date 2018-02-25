@@ -29,12 +29,12 @@ app.get('/', function(req, res) {
   res.render('index')
 });
 
-app.get('/contact', function(req, res) {
-	res.render('contact')
+app.get('/content', function(req, res) {
+	res.render('content')
 })
 
-app.get('/update', function(req, res) {
-	res.render('update')
+app.get('/inspiration', function(req, res) {
+	res.render('inspiration')
 })
 
 app.get('/demo', function(req, res) {
