@@ -264,6 +264,12 @@ h5 {
 		margin-bottom: 0px;
 		margin-top: 40px;
 }
+.heading-bold {
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 27px;
+		font-weight: bold;
+		margin-bottom: 0px;
+}
 .center {
 		text-align: center;
 		margin-top: 40px;
@@ -271,6 +277,68 @@ h5 {
 #start {
 		margin-top: 100px;
 }
+#seventy {
+		margin-top: 70px;
+}
+#marginbottom {
+		margin-bottom: 200px;
+}
+.threewide {
+		width: 100%;
+		height: 300px;
+		/* border-width: 1;
+		border-color: #000;
+		border-style: solid; */
+		margin-top: 70px;
+}
+.onephoto {
+		float: left;
+		width: 31.9%;
+		height: 298px;
+		/* border-width: 1;
+		border-color: #000;
+		border-style: solid; */
+		margin-right: 2.1%;
+}
+.twophoto {
+		float: left;
+		width: 31.9%;
+		height: 298px;
+		/* border-width: 1;
+		border-color: #000;
+		border-style: solid; */
+}
+#earbuds_one {
+	background: url("photos/larger_headtilt.jpg") no-repeat;
+	background-position: 45% 50%;
+	background-size: 100%;
+}
+#earbuds_two {
+	background: url("photos/earbuds_1.jpg") no-repeat;
+	background-position: 45% 55%;
+	background-size: 120%;
+}
+#earbuds_three {
+	background: url("photos/earbuds_2.jpg") no-repeat;
+	background-position: 45% 50%;
+	background-size: 120%;
+}
+#schoolgirl_one {
+	background: url("photos/schoolgirl_1.jpg") no-repeat;
+	background-position: 45% 50%;
+	background-size: 130%;
+}
+#schoolgirl_two {
+	background: url("photos/schoolgirl_2.jpg") no-repeat;
+	background-position: 45% 55%;
+	background-size: 160%;
+}
+#schoolgirl_three {
+	background: url("photos/schoolgirl_3.jpg") no-repeat;
+	background-position: 45% 50%;
+	background-size: 100%;
+}
+
 li {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 35px;

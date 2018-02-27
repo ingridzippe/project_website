@@ -37,8 +37,8 @@ app.get('/inspiration', function(req, res) {
 	res.render('inspiration')
 })
 
-app.get('/demo', function(req, res) {
-	res.render('demo')
+app.get('/projects', function(req, res) {
+	res.render('projects')
 })
 
 
